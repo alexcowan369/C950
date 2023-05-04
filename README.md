@@ -5,4 +5,4 @@ AUTHOR: Alexander Cowan
 
 DIRECTIONS OF HOW TO RUN/USE PROGRAM: 
 
-Run in IDE of choice choose Python 3.11 as your interpretor, CLI prompts are presented with the while loops and it makes it easy to follow along
+Run in IDE of choice choose Python 3.11 as your interpretor, CLI prompts asking user for input are presented with the while loops thus makes it easy to follow along
