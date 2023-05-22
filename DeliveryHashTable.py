@@ -5,7 +5,7 @@ class DeliveryHashTable:
     def __init__(self, initial_capacity=20):
         self.buckets = [list() for _ in range(initial_capacity)]
 
-# This class is the INSERT FUNCTION
+# This is the INSERT FUNCTION
 # The method takes a key value pair which will be used for the packages
 # Updating and inserting will take place with the function
     def put(self, key, value):
