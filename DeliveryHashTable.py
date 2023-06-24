@@ -1,5 +1,6 @@
 # Below is the hash table named "DeliveryHashTable"
 # Initial number of buckets is set to 20
+# "buckets" will represent where the key value pairs will be stored
 # Note: the lone "_" is used in this case to indicate a value is not needed, acting as a placeholder
 class DeliveryHashTable:
     def __init__(self, initial_capacity=20):
