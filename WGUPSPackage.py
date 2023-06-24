@@ -21,6 +21,7 @@ class WGUPSPackage:
     # The status_update method below checks the current times of the packages in their stages of delivery
     # If they align with the equations/assumptions below they will either say:
     # "Delivered", "En Route to Destination", or say "At Central Hub"
+    # This is an example of encapsulation as an additonal method and attributes are nested under one single class. 
     def status_update(self, timedelta_convert):
         if self.arrival_time < timedelta_convert:
             self.delivery_status = "DELIVERED"
