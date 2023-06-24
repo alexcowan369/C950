@@ -34,6 +34,7 @@ with open("CSV_files/Package_File.csv") as csvpackage:
 # Package objects are created from the CSV package file which contain all the package data
 # The package objects which were created are loaded in the hash table for future use: pack_hash_table
 # From now on "pack" will be shortcut for package
+# In the variables below, they are assigned the csv contents at each index within the CSV file 
 def load_pack_data(filename, pack_hash_table):
     with open(filename) as package_csv_info:
         all_pack_data = csv.reader(package_csv_info)
