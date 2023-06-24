@@ -52,6 +52,7 @@ def load_pack_data(filename, pack_hash_table):
             p = WGUPSPackage(packID, packAddress, packCity, packState, packZipcode, packDeadline_time, packWeight, packStatus)
 
             # Insert packID into hash table for use later
+            # packID will be the key, "p" loads the object into the hash table for use
             # Reminder: "pack_hash_table" is an instance of the "DeliveryHashTable" class
             pack_hash_table.put(packID, p)
 
