@@ -128,6 +128,7 @@ def deliver_packages(main_truck):
     # Packages list is cleared, "main_truck" object/instance will now store packages
     main_truck.package_list = []
     # Loop continues if there are undelivered packages
+    # While loop will stop once a False is determined, only will occur when the list becomes empty
     while undelivered_packages:
         # Arbitrary high value is selected here to make sure the algorithm chooses the shortest distances later on
         closest_distance = 3500
