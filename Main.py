@@ -68,7 +68,7 @@ def distance_between_pack(x, y):
 
 # Method below extracts the address number form the correlating strings in csv
 # row index of 2 is the index/location where addresses are stored in csv
-# if an address is identified code grabs the number associated with it which is at index of 0
+# if an address is identified code grabs the ID number associated with it which is at index of 0
 def find_csv_address_id(target_address):
     for csv_row in Address_in_CSV:
         current_address = csv_row[2]
